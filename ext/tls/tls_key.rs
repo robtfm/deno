@@ -30,8 +30,8 @@ use std::sync::Arc;
 use tokio::sync::broadcast;
 use tokio::sync::mpsc;
 use tokio::sync::oneshot;
-use webpki::types::CertificateDer;
-use webpki::types::PrivateKeyDer;
+use rustls::pki_types::CertificateDer;
+use rustls::pki_types::PrivateKeyDer;
 
 type ErrorType = Rc<AnyError>;
 

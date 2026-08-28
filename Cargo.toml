@@ -158,7 +158,7 @@ rusqlite = { version = "0.32.0", features = ["unlock_notify", "bundled"] }
 rustls = { version = "0.23.11", default-features = false, features = ["logging", "std", "tls12", "ring"] }
 rustls-pemfile = "2"
 rustls-tokio-stream = "=0.3.0"
-rustls-webpki = "0.102"
+rustls-webpki = "0.103"
 rustyline = "=13.0.0"
 saffron = "=0.1.0"
 scopeguard = "1.2.0"
